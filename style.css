@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#div{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1c1c;
+    border: 2px solid rgb(47, 47, 47);
+    gap: 25px;
+    padding: 40px;
+    border-radius:10px;
+}
+
+input{
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #242424;
+    border: 2px solid rgb(55, 55, 55);
+}
+input:focus{
+    outline: 2px solid rgb(129, 129, 129);
+}
+
+button{
+    background-color: rgb(12, 109, 54);
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 15px 50px;
+    margin: 0 auto;
+}
+button:hover{
+    background-color: rgb(10, 134, 64);
+}
+
+button:active{
+    transform: scale(0.95);
+}
+#inner{
+    background-color: #1c1c1c;
+    border: 2px solid rgb(47, 47, 47);
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 6px;
+    font-size: 20px;
+    text-align: center;
+}
+
+span{
+    background-color: rgb(223, 162, 28);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
